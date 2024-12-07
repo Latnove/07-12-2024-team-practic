@@ -10,7 +10,7 @@ public class MessageService {
 		return new Message(sender, receiver, messageText, time);
 	}
 
-	public Message[] create4Messages(User[] users)  {
+	public static Message[] create4Messages(User[] users)  {
 		Message[] messages = new Message[4];
 		messages[0] = send(users[0], users[1], "test");
 		messages[1] = send(users[1], users[2], "test");

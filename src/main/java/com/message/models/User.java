@@ -26,6 +26,6 @@ public class User {
     }
 
     public String getData() {
-        return "Имя: " + getName() + "\nНик: " + getNickname() + "\nТелефон: " + getPhoneNumber();
+        return "Имя: " + getName() + "\nНик: " + getNickname() + "\nТелефон: " + getPhoneNumber() + "\n";
     }
 }
