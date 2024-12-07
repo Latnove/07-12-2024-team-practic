@@ -17,5 +17,11 @@ public class Main {
         for (Message message : messages) {
             System.out.println(message.getData());
         }
+
+        User user1 = UserService.create("AlexR", "Alex Roberts", "+3344556677", "alex1234");
+        User user2 = UserService.create("EmilyJ", "Emily Johnson", "+4455667788", "emilyPass99");
+        Message message1 = MessageService.send(user1, user2, "ПРИВЕТ");
+        
+        System.out.println("\n" + message1.getData());
     }
 }
