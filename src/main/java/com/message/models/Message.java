@@ -28,4 +28,8 @@ public class Message {
 	public String getMessageTime() {
 		return this.messageTime;
 	}
+
+	public String getData() {
+		return this.sender + " отправил " + this.reseiver + " сообщение: " + this.messageText + " в " + this.messageTime;
+	}
 }
