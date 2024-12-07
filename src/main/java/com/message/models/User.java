@@ -24,4 +24,8 @@ public class User {
     public String getPhoneNumber() {
         return phoneNumber;
     }
+
+    public String getData() {
+        return "Имя: " + getName() + "\nНик: " + getNickname() + "\nТелефон: " + getPhoneNumber();
+    }
 }
