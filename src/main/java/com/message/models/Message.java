@@ -30,6 +30,6 @@ public class Message {
 	}
 
 	public String getData() {
-		return this.sender + " отправил " + this.reseiver + " сообщение: " + this.messageText + " в " + this.messageTime;
+		return this.sender.getName() + " отправил " + this.reseiver.getName() + " сообщение: " + this.messageText + " в " + this.messageTime;
 	}
 }
